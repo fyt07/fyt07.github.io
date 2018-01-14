@@ -1,0 +1,425 @@
+body {
+    font-family: "Roboto",  sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+}
+p {
+    margin: 0 0 10px 10px;
+}
+h1{
+	font-size: 36px;
+	text-align: center;
+}
+.btn:focus{
+	color: #fff;
+}
+/*top*/
+.tel-main{
+	
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 700;
+}
+	.logo{
+		margin-bottom: 20px;
+	}
+	.logo p{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.tel{
+
+		color: #333;
+		text-align: right;
+	}
+
+	.tel:hover,
+	.tel:focus{
+		color: #333;
+		text-decoration: none;
+	}
+	.tel:before{
+		margin-left: -20px;
+		position: absolute;
+		content: "";
+		width: 17px;
+		height: 30px;
+		background-image: url(../img/tel.png);
+	}
+	.btn{
+		margin: 10px 0;
+		padding: 5px 34px;
+		border-radius: 0;
+		color: #fff;
+		border: 2px solid #090;
+		background-color: #090;
+	}
+	.btn:hover{
+		background-color: #fff;
+		color: #090;
+
+	}
+/*header*/
+.header{
+	padding-top: 20px;
+	background: #fff url(../img/bg-head.png);
+}
+	.header-promo{
+		height: 488px;
+		background: no-repeat url(../img/header-img.png) ;
+	}
+	.to-buy{
+		padding: 2px 0 0 ;
+		color: #fff;
+		background: url(../img/to-byu-bg.png);
+		text-align: center;
+	}
+	.to-buy span{
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+	.to-buy p{
+		margin-bottom: 0;
+	}
+	.form form{
+		text-align: center;
+		padding: 10px;
+		background: #fff;
+	}
+	.form input{
+		margin: 5px 0;
+		padding-left: 20px;
+		background: #f5f5f5;
+		width: 97%;
+	   	height: 40px;
+		border: 0
+	}
+	#check1,
+	#check2,
+	#check3,
+	#check4{
+		width: 20px;
+		height: 20px;
+
+	}
+	label{
+		width: 90%;
+		margin-top: -5px;
+		font-weight: 400;
+		color: #656565;
+		vertical-align: middle;
+		font-size: 14px;
+	}
+	label span{
+		color: #900;
+	}
+	label:after{
+		content: " ";
+		float: right;
+		display:inline-block;
+		width: 20px;
+		height: 20px;
+		background: url(../img/quest-form.png);
+	}
+
+	input[type="submit"]{
+		height: 60px;
+		font-size: 28px;
+		padding: 0 !important ;
+		color: #fff;
+		background: #900 url(../img/submit-bg.png);
+	}
+	input[type="submit"]:hover{
+		-webkit-transform: scale(1.05);
+		    -ms-transform: scale(1.05);
+		        transform: scale(1.05);
+	}
+	.stock{
+		position: relative;
+		display: inline-block;
+		width: 100px;
+		background: #fccd0f;
+		margin-top: 20px;
+		text-align: center;
+		color: #000;
+	}
+	.stock:after{
+		content: "";
+		top: -40px;
+		left: 30px;
+		position: absolute;
+		border: 20px solid transparent;
+		border-bottom: 20px solid #fccd0f;
+	}
+	.stock *{
+		margin:7px 0 5px;
+	}
+	.stock h3{
+		font-size: 22px;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	.stock h4{
+		font-size: 24px;
+		font-weight: 700;
+		color: #900;
+	}
+	.eTimer{
+		vertical-align: top;
+		margin-top: 20px;
+	}
+	/*stats*/
+	.stats{
+		padding-top: 30px;
+		background: url(../img/stat-bg.png);
+		text-align: center;
+		color: #fff;
+	}
+	.stats-item{
+		height: 190px;
+	}
+	.stats h5{
+		font-weight: 600;
+		font-size: 30px;
+	}
+/* char */
+.characteristics{
+	background: url(../img/bg-head.png);
+}
+	.characteristics h1{
+		margin: 30px 0;
+		text-align: center;
+		font-size: 36px;
+		text-transform: uppercase;
+	}
+	.char-info{
+		font-size: 18px;
+		font-weight: 400;
+	}
+	.char-info h2{
+		font-weight: 400;
+	}
+	.char-info li{
+		list-style: none;
+	}
+	.char-info ul{
+		padding: 0;
+	}
+	.gallery-img{
+		width: 90px;
+		height: 90px;
+		margin: 10px 0;
+	}
+	.gallery-img:nth-child(5),
+	.gallery-img:nth-child(4),
+	.gallery-img:nth-child(3)
+	{
+		margin-right: 13px;
+	}
+	#gallery{
+		display: block;
+		width: 410px;
+		height: 270px;
+	}
+/*form*/
+.form-mid{
+	position: relative;
+	padding: 30px 0;
+	text-align: center;
+	background: url(../img/to-byu-bg.png);
+}
+	.form-mid form:before{
+		content: "";
+		top: -40px;
+		left: 48%;
+		position: absolute;
+		border: 20px solid transparent;
+		border-bottom: 20px solid #fccd0f;
+	}
+	.form-mid input{
+		width: 250px;
+		height: 40px;
+		border: none;
+		padding-left: 20px;
+		margin: 15px 15px ;
+		vertical-align: top;
+	}
+/*description*/
+.descriptions{
+	background: url(../img/stat-bg.png);
+	color: #fff;
+	padding-bottom: 30px;
+}
+	.descriptions h1{
+		font-size: 36px;
+		text-align: center;
+		margin: 30px;
+	}
+/*addgood*/
+.addgoods{
+	font-size: 18px;
+	background: url(../img/bg-head.png);
+}
+	.addgoods h1{
+		margin: 30px;
+	}
+	.add-img img{
+		margin-bottom: 20px;
+	}
+	.add-text p{
+		margin-bottom: 40px;
+	}
+/*video*/
+.video{
+	padding: 20px;
+	color: #fff;
+	background: url(../img/stat-bg.png);
+}
+	.video-item{
+		padding: 0;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.video-item iframe{
+		height: 300px;
+		width: 90%;
+	}
+	.video h1{
+		margin-bottom: 50px;
+	}
+/*review*/
+.review{
+	background: url(../img/bg-head.png);
+
+}
+	.rev-item{
+		clear: both;
+		margin-bottom: 20px;
+	}
+	.rev-item p{
+		font-style: italic;
+	}
+	.rev-item img{
+		width: 130px;
+		height: 130px;
+		padding: 0;
+	}
+	.why{
+		right: 14%;
+	}
+	.rev-item span{
+		float: right;
+		color: #069;
+	}
+/*beforeAfter*/
+.befaft{text-align: center;
+	padding: 30px;
+	color: #fff;
+	background: url(../img/stat-bg.png);
+}
+	.befaft h1{
+		margin-bottom: 40px;
+	}
+	.bfaf{
+		padding: 0;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.befaft img{
+		width: 90%;
+	}
+	.bfaf-bot{
+		padding: 0;
+	}
+	.bfaf-bot img{
+		margin-bottom: 30px;
+
+	}
+/*footer*/
+.foot{
+	padding-top: 10px;
+}
+/* Media */
+/* Большой дисплей */
+@media (max-width: 1200px) {
+	.stock{
+		display: none;
+	}
+   	.eTimer{
+   		width: 100%;
+   		text-align: center;
+   }
+    .char-info h2{
+   		margin: 0 0 5px 0;
+   }
+}
+/* От портретного планшета до ландшафтного экрана и настольных дисплеев */
+@media screen and (max-width: 979px) {
+	.tel-main,
+	.tel{
+		text-align: center;
+	}
+   .gallery{
+   		text-align: center;
+   }
+  	#gallery{
+   		margin: 0 auto;
+   	}
+	.char-info{
+   		margin-left: 10%;
+   }
+   .add-img{
+   		text-align: center;
+   }
+   .add-img img{ 
+   		width: 280px;  	
+		height: 200px;
+   }
+   .why{
+   		right:  22%;
+   }
+}
+/* От ландшафтного экрана телефона до потретного планшета */
+@media screen and (max-width: 767px) {
+	.tel:before{
+   		top: 10px;
+   }
+    .btn{
+   		margin:  0;
+  	}
+  	#gallery{   	
+   		width: 93%;
+   }
+   .gallery-price{
+   		width: 93%;
+   }
+   .gallery-img{
+   		width: 20%;
+   }
+	.char-info{
+   		margin-left: 2%;
+   }
+   .why{
+   		right: 0;
+   }
+   .video-item iframe{
+		height: 200px;
+	}
+   .rev-item {
+   		text-align: center;
+   }
+   .rev-item p{
+   		text-align: left;
+   		margin: 10px 0 ;
+   }
+   .rev-item span{
+   		margin-bottom: 10px;
+   }
+}
+/* Landscape - телефоны */
+@media screen and (max-width: 480px) {
+  .tel:before{
+   		top: 0;
+   }
+}
